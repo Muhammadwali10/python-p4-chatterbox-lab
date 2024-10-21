@@ -14,7 +14,6 @@ if "Duane" not in usernames:
     usernames.append("Duane")
 
 def make_messages():
-
     Message.query.delete()
     
     messages = []
